@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+ * {
+     box-sizing: border-box;
+     font-family: "Open Sans", sans-serif;
+}
+ body {
+     margin: 0;
+     padding: 0;
+     background-color: #FFFFFF;
+}
+ .parent {
+     width: 700px;
+     margin: 40px auto;
+     background-color: #ECE8E7;
+     padding: 20px;
+}
+ .parent input {
+     border: none;
+     padding: 15px;
+     margin-bottom: 15px;
+     width: 100%;
+     font-size: 20px;
+     border-radius: 5px;
+}
+ .parent input:focus {
+     outline: none;
+}
+ .input-area input[type=button] {
+     background-color: #0C83F1;
+     text-align: center;
+     width: 300px;
+     color: #FFF;
+     padding: 6px 10px;
+     border-radius: 4px;
+     cursor: pointer;
+     margin-left: 30%;
+}
+ .input-area input[type=button]:hover {
+     background-color: #0974d8;
+     transition-duration: .2s;
+}
+ .error {
+     color: red;
+     text-align: center;
+}
+ .user {
+     background-color: #FFFFFF;
+     display: none;
+     justify-content: space-around;
+     align-items: center;
+}
+ .user-avatar img {
+     border-radius: 50%;
+     width: 100%;
+     height: 100%;
+     border: 1px solid #000;
+}
+ .user-avatar {
+     width: 150px;
+     height: 150px;
+}
+ .userinfo {
+     display: grid;
+     align-items: center;
+     grid-template-columns: auto auto;
+     gap: 15px;
+}
+ .info {
+     font-size: 15px;
+     color: #839bad;
+}
